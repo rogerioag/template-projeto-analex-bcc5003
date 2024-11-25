@@ -1,0 +1,13 @@
+int soma (int u, int v){
+  return u + v;
+}
+
+int main(void){
+  int x; int y; int z;
+  x = input();
+  y = input();
+  z = soma(x,y);
+  output(z);
+  return 0;
+}
+

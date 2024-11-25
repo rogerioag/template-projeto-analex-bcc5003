@@ -1,0 +1,30 @@
+int a;
+int b[10];
+
+int input(void){
+  return;
+}
+
+void output(int x){
+
+}
+
+int func(int x, int y){
+  int res;
+  res = x + y - 2;
+  if(res != 0){
+    res = -1;
+  }
+  return(res);
+}
+
+int main(void){
+  a = input();
+  b = input();
+
+  b[0] = a;
+  b[1] = func(a,b);
+
+  output(a);
+  return(0);
+}
